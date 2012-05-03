@@ -1,0 +1,9 @@
+{
+  "name": "wedgies-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "oauth": "*",
+    "cookies": "*",
+    "keygrip": "*"
+  }
+}

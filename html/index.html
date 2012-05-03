@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Image Posting Demo!</title>
+    <style type="text/css">
+
+      body {
+        background-color: #575757;
+        color: #ffffff;
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+        font-family: tahoma, verdana, comic sans ms;
+      }
+
+      #main {
+        margin-left: auto;
+        margin-right: auto;
+        width:480px;
+      }
+      
+      textarea {
+        resize: none;
+        height: 45px;
+        width: 83%;
+        font-size: 16px;
+      }
+
+      #main_form > div {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="main">
+  <div id="main_form">
+    <form action="/tweet" method="post">
+      <div id="url_text">
+        <textarea name="url" placeholder="Enter a url here!" required></textarea>
+      </div>
+      <div id="tweet_text">
+        <textarea name="tweet" placeholder="Enter the tweet text" required></textarea>
+      </div>
+      <div id="submit">
+        <input type="submit" name="submit" value="Post to Twitter!">
+      </div>
+    </form>
+  </div>
+  </div>
+  </body>
+</html>
